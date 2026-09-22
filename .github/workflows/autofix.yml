@@ -1,9 +1,9 @@
+
 name: autofix.ci
 
 on:
-  push:
-    branches: ["master", "1.23.X"]
-  pull_request:
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions: {}
 
 jobs:

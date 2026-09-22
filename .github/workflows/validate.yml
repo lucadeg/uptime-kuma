@@ -1,13 +1,8 @@
+
 name: validate
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
-      - 1.23.X
   workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions: {}
 
 jobs:
